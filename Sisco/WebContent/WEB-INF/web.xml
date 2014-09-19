@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <display-name>SISCOsisco</display-name>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>inicio.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <description/>
+        <display-name>Resultados</display-name>
+        <servlet-name>Resultados</servlet-name>
+        <servlet-class>sat.sistemaconsultasaggc.vista.Resultados</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Resultados</servlet-name>
+        <url-pattern>/Resultados.rar</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description/>
+        <display-name>Login</display-name>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>sat.sistemaconsultasaggc.vista.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login.sat</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description/>
+        <display-name>Registros</display-name>
+        <servlet-name>Registros</servlet-name>
+        <servlet-class>sat.sistemaconsultasaggc.vista.Registros</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Registros</servlet-name>
+        <url-pattern>/Registros.sat</url-pattern>
+    </servlet-mapping>
+</web-app>

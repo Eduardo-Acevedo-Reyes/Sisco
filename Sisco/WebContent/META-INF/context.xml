@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/Sisco">
+    <Resource name="jdbc/sisco" auth="Container" type="javax.sql.DataSource"
+    maxActive="100" maxIdle="30" maxWait="100000"
+    username="postgres" password="toor" driverClassName="org.postgresql.Driver"
+    url="jdbc:postgresql://localhost:5432/sisco" />
+</Context>
